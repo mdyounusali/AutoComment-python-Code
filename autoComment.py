@@ -30,9 +30,9 @@ def name():
 
 
 while True:      #forever loop
-    pyautogui.typewrite("I love you {name()}")  #type message
+    pyautogui.typewrite('I love you {name()}')  #type message
     sleep(.600)                        #A bit delay of 600 ms
-    pyautogui.typewrite("\n")          #New line, here 'Enter' to send text
+    pyautogui.typewrite('enter')          #New line, here 'Enter' to send text
     sleep(2)                           #delay of 2 seconds
 
     x = x - 1         #decrement x value by 1
